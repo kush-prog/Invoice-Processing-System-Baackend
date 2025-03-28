@@ -22,27 +22,25 @@ The **Invoice Processing System Backend** is built using **Spring Boot**, provid
    ```sh
    git clone https://github.com/kush-prog/Invoice-Processing-System-Backend.git
 
-```md
+2. Navigate to the project directory:
+   ```sh
+   cd Invoice-Processing-System-Backend
+   ```
 
-### Navigate to the project directory:
-```sh
-cd Invoice-Processing-System-Backend
-```
+3. Build the project using Maven:
+   ```sh
+   mvn clean install
+   ```
 
-### Build the project using Maven:
-```sh
-mvn clean install
-```
+4. Run the application:
+   ```sh
+   mvn spring-boot:run
+   ```
 
-### Run the application:
-```sh
-mvn spring-boot:run
-```
-
-### Access the API:
-```
-http://localhost:8080/api/invoices
-```
+5. Access the API:
+   ```
+   http://localhost:8080/api/invoices
+   ```
 
 ---
 
